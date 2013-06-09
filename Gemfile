@@ -26,6 +26,7 @@ group :test do
 end
 
 group :production do
+	gem 'nokogiri'
 	gem 'pg', '0.12.2'
 end
 
